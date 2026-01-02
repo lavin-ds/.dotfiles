@@ -103,3 +103,6 @@ source $ZSH/oh-my-zsh.sh
 alias vi="nvim"
 alias zshconfig="vi ~/.zshrc"
 alias ohmyzsh="vi ~/.oh-my-zsh"
+
+# git
+alias guo="git push --set-upstream origin"
