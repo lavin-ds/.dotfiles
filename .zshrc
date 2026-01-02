@@ -111,9 +111,15 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
+# Neovim
 alias vi="nvim"
+alias nvimconf="vi ~/.config/nvim/init.lua"
+
 alias zshconfig="vi ~/.zshrc"
 alias ohmyzsh="vi ~/.oh-my-zsh"
 
 # git
 alias guo="git push --set-upstream origin"
+
+#eza for ls
+alias ls="eza"
