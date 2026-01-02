@@ -13,9 +13,6 @@ prompt pure
 # TMUX Autostart
 ZSH_TMUX_AUTOSTART=true
 
-# Start keychain
-eval ``keychain --eval --agents ssh id_ed25519
-
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
