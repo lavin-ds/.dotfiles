@@ -122,4 +122,4 @@ alias ohmyzsh="vi ~/.oh-my-zsh"
 alias guo="git push --set-upstream origin"
 
 #eza for ls
-alias ls="eza"
+alias ls="eza -all"
