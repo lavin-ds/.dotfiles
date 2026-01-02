@@ -10,6 +10,9 @@ fpath+=($HOME/.zsh/pure)
 autoload -U promptinit; promptinit
 prompt pure
 
+# TMUX Autostart
+ZSH_TMUX_AUTOSTART=true
+
 # Start keychain
 eval ``keychain --eval --agents ssh id_ed25519
 
@@ -79,7 +82,9 @@ eval ``keychain --eval --agents ssh id_ed25519
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git
+	tmux)
+
 
 source $ZSH/oh-my-zsh.sh
 
