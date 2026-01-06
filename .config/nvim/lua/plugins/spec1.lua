@@ -1,4 +1,5 @@
 return {
+
   -- the colorscheme should be available when starting Neovim
   {
     "rebelot/kanagawa.nvim",
@@ -19,8 +20,6 @@ return {
   -- So for api plugins like devicons, we can always set lazy=true
   { "nvim-tree/nvim-web-devicons", lazy = true },
 
-  { 'nvim-treesitter/nvim-treesitter', lazy = false, build = ':TSUpdate' },
-
   {
     'nvim-lualine/lualine.nvim',
     dependencies = { 'nvim-tree/nvim-web-devicons' }
@@ -28,7 +27,7 @@ return {
 
   -- Telescope fuzzy finder over lists
   {
-    'nvim-telescope/telescope.nvim', tag = '0.2.1',
+    'nvim-telescope/telescope.nvim', 
     dependencies = {
         'nvim-lua/plenary.nvim',
         -- optional but recommended
@@ -38,6 +37,8 @@ return {
 
   --Toggleterm 
   {'akinsho/toggleterm.nvim', version = "*", config = true},
+
+  {    'stevearc/conform.nvim',  opts = {},},
 }
 
 
