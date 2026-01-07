@@ -6,7 +6,8 @@ if [[ $OSTYPE == "darwin"* ]]; then
   brew install zsh
   brew install neovim
   brew install tmux
-
+  brew install stow
+  
   PACKAGE="eza"
   if command -v $PACKAGE > /dev/null; then
     echo "$PACKAGE is installed."
